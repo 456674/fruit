@@ -8,5 +8,6 @@ import java.util.List;
 public class BarVO {
     //barvo
     private List<String> names;
+    private List<String> name;
     private List<DataVO> values;
 }
