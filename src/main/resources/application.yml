@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://124.221.134.131:3306/test11?serverTimezone=Asia/Shanghai&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: .13911126840xX
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:com/asyou20/mapper/xml/*.xml
+server:
+  port: 8181
